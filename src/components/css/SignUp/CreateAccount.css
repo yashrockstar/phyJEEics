@@ -1,0 +1,17 @@
+.SignUpPageLeft {
+    width: 50%
+}
+
+@media screen and (max-width: 950px) {
+    .SignUpPageLeft {
+        width: 100%
+    }
+
+    .accountLogin {
+        flex-direction: column;
+      }
+    
+      .account {
+        margin-left: auto;
+      }
+}

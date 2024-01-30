@@ -1,0 +1,9 @@
+/* Add this CSS to your stylesheet */
+.content-hide {
+    display: none;
+}
+
+.content-show:hover+.content-hide,
+.content-hide:hover {
+    display: block;
+}

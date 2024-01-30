@@ -1,0 +1,84 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust opacity as needed */
+  z-index: 9;
+  /* Make sure the overlay is behind the login modal */
+}
+
+.handleLogout {
+  border: 3px solid transparent;
+  font-weight: 500;
+  font-size: 1.5em;
+  font-family: inherit;
+  background-color: #f5a425;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  height: 35px;
+  width: auto;
+  float: inline-end;
+  border-radius: inherit;
+}
+
+.user {
+  color: #f5a425;
+  font-size: 15px;
+  cursor: pointer
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  border-radius: 5px;
+  background-color: rgba(22, 34, 57, 0.95);
+  z-index: 1;
+  padding: 20px;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.handleLogout:hover {
+  border-color: #dabb8b;
+  background-color: #dabb8b;
+}
+
+.handleLogout:focus,
+.handleLogout:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.message-container {
+  position: fixed;
+  top: 85px; /* Adjust as necessary */
+  right: 20px; /* Adjust as necessary */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.success-message {
+  color: white;
+  font-weight: 600;
+  font-size: small;
+  padding: 10px;
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes slideIn {
+  from { right: -100%; }
+  to { right: 20px; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

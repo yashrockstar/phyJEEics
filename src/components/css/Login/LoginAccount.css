@@ -1,0 +1,9 @@
+.LoginPageLeft {
+    width: 50%
+}
+
+@media screen and (max-width: 950px) {
+    .LoginPageLeft {
+        width: 100%
+    }
+}

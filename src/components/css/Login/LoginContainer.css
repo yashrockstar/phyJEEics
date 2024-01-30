@@ -1,0 +1,25 @@
+/* LoginContainer.css */
+.login-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 33%;
+    height: 40%;
+    /* Adjust background color as needed */
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Optional: Add a box shadow */
+}
+
+@media screen and (max-width: 950px) {
+
+    .login-container {
+        width: 90%;
+        height: 48%;
+        left: 52%;
+    }
+
+}
