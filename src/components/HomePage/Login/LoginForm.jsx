@@ -33,7 +33,7 @@ export default function LoginForm({ onCloseClick, onSignUpClick, onSuccessLogin 
       })
     );
     // API endpoint where you want to send data
-    const apiEndpoint = "http://localhost:3000/login";
+    const apiEndpoint = "https://phyjeeics-backend.onrender.com/login";
 
     try {
       const response = await fetch(apiEndpoint, {

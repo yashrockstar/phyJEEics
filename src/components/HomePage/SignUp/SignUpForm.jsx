@@ -19,7 +19,7 @@ export default function SignUpForm({  onSignUpClick, onSuccessSignUp }) {
       password: hashedPassword,
     }))
     // API endpoint where you want to send data
-    const apiEndpoint = 'http://localhost:3000/signup';
+    const apiEndpoint = 'https://phyjeeics-backend.onrender.com/signup';
   
     try {
       const response = await fetch(apiEndpoint, {
