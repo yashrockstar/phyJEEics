@@ -1,11 +1,12 @@
 import "../css/Home.css";
+import homeVideo from '/src/assets/images/homeVideo.mp4';
 
 export default function Home() {
   return (
     <>
       <section className="section main-banner" id="section1" data-section="section1">
         <video autoPlay muted loop id="bg-video">
-          <source src="./src/assets/images/homeVideo.mp4" type="video/mp4" />
+          <source src={homeVideo} type="video/mp4" />
         </video>
 
         <div className="video-overlay header-text">

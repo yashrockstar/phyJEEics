@@ -1,4 +1,8 @@
 import "../css/Courses.css";
+import Aditya_Phyjeeics from '/src/assets/images/Aditya_Phyjeeics.jpg';
+import phyjeeics_12th from '/src/assets/images/12th phyjeeics.jpg';
+import jee_and_neet_phyjeeics from '/src/assets/images/jee and neet phyjeeics.jpg';
+import phyjeeics_11th from '/src/assets/images/11th phyjeeics.jpg';
 
 export default function Courses() {
   return (
@@ -14,7 +18,7 @@ export default function Courses() {
             <div className="courses-div">
               <div className="item">
                 <img
-                  src="src\assets\images\11th phyjeeics.jpg"
+                  src={phyjeeics_11th}
                   alt="11th Physics"
                   width="100%"
                   height="32%"
@@ -30,7 +34,7 @@ export default function Courses() {
                   </p>
                   <div className="author-image">
                     <img
-                      src="./src/assets/images/Aditya_Phyjeeics.jpg"
+                      src={Aditya_Phyjeeics}
                       alt="Author"
                     />
                   </div>
@@ -38,7 +42,7 @@ export default function Courses() {
               </div>
               <div className="item">
                 <img
-                  src="src\assets\images\12th phyjeeics.jpg"
+                  src={phyjeeics_12th}
                   alt="12th Physics"
                   width="100%"
                   height="32%"
@@ -54,7 +58,7 @@ export default function Courses() {
                   </p>
                   <div className="author-image">
                     <img
-                      src="./src/assets/images/Aditya_Phyjeeics.jpg"
+                      src={Aditya_Phyjeeics}
                       alt="Author"
                     />
                   </div>
@@ -62,7 +66,7 @@ export default function Courses() {
               </div>
               <div className="item">
                 <img
-                  src="src\assets\images\jee and neet phyjeeics.jpg"
+                  src={jee_and_neet_phyjeeics}
                   alt="JEE & NEET Physics"
                   width="100%"
                   height="32%"
@@ -78,7 +82,7 @@ export default function Courses() {
                   </p>
                   <div className="author-image">
                     <img
-                      src="./src/assets/images/Aditya_Phyjeeics.jpg"
+                      src={Aditya_Phyjeeics}
                       alt="Author"
                     />
                   </div>

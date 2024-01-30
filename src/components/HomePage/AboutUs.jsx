@@ -1,4 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
+
+import Aditya_Phyjeeics from "/src/assets/images/Aditya_Phyjeeics.jpg";
+import phyeeics_insta1 from "/src/assets/images/phyeeics insta1.png";
+import phyeeics_insta2 from "/src/assets/images/phyeeics insta1.png";
+import phyjeeics_logo from "/src/assets/images/phyjeeics_logo (1).jpg";
+
 export default function AboutUs() {
   let marginStyle0 = {
     marginTop: "0px",
@@ -40,7 +46,7 @@ export default function AboutUs() {
                   <article id="tabs-1">
                     <div className="row">
                       <div className="col-md-4">
-                        <img src="./src/assets/images/Aditya_Phyjeeics.jpg" alt="" />
+                        <img src={Aditya_Phyjeeics} alt="" />
                       </div>
                       <div className="col-md-8">
                         <h4 style={marginStyle0}>📌 Meet Your Mentor</h4>
@@ -58,7 +64,7 @@ export default function AboutUs() {
                     </div>
                     <div className="row" style={marginStyle40}>
                       <div className="col-md-4">
-                        <img src="./src/assets/images/phyeeics insta1.png" alt="" />
+                        <img src={phyeeics_insta1} alt="" />
                       </div>
                       <div className="col-md-8">
                         <h4 style={marginStyle0}>📌 PhyjEEics</h4>
@@ -74,7 +80,7 @@ export default function AboutUs() {
                     </div>
                     <div className="row" style={marginStyle40}>
                       <div className="col-md-4">
-                        <img src="./src/assets/images/phjeeics insta2.png" alt="" />
+                        <img src={phyeeics_insta2} alt="" />
                       </div>
                       <div className="col-md-8">
                         <h4 style={marginStyle0}>📌 What You'll Find:</h4>
@@ -95,10 +101,7 @@ export default function AboutUs() {
                     </div>
                     <div className="row" style={marginStyle20}>
                       <div className="col-md-4" style={marginStyle80}>
-                        <img
-                          src="./src/assets/images/phyjeeics_logo (1).jpg"
-                          alt=""
-                        />
+                        <img src={phyjeeics_logo} alt="" />
                       </div>
                       <div className="col-md-8">
                         <h4 style={marginStyle0}>📌 Why Choose Us?</h4>
